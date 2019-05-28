@@ -1,0 +1,517 @@
+/*
+Theme Name: ShoppingCart Child
+Theme URI: https://themefreesia.com/themes/shoppingcart
+Template: shoppingcart
+Author: Theme Freesia
+Author URI: https://themefreesia.com
+Description: ShoppingCart is a beautiful theme especially build for Store, eCommerce, Shop and also fits for any kind of Shopping theme which contains all the feature you need to create a stunning website. The theme consists of well organized components so it’s easy to edit and customize everything to create a specific website for your needs. It is designed for Shopping but this is competent for every kind of site such as personal blog, ecommerce, portfolio etc. which is designed and developed by Theme Freesia. With a focus on Shopping sites, it features multiple sections on the front page as well as widgets, multiple navigation and social menus, a logo and more. This theme supports popular plugins like Breadcrumb NavXT, WP-PageNavi, Contact Form 7, Jetpack by WordPress.com, bbPress, wooCommerce and many more. It is 100% translation ready and you can easily customize with lots of options using Customizer. It consists contact us template, gallery template, Shopping Template, widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View demo site at http://demo.themefreesia.com/shoppingcart.
+Tags: threaded-comments,right-sidebar,four-columns,custom-background,custom-colors,custom-header,custom-logo,custom-menu,editor-style,featured-images,flexible-header,post-formats,footer-widgets,sticky-post,theme-options,translation-ready,e-commerce,education,portfolio
+Version: 1.0.1557386827
+Updated: 2019-05-09 07:27:07
+
+*/
+@font-face {
+ font-family: 'zawgyione';
+ src: url('fonts/zawgyione.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+nav a,.site-footer a,.widget-title,.login,.logout,p,.box .text,.best_seller_button button{
+    font-family: zawgyione !important;
+}
+#site-detail {
+    display: block;
+    text-align: center;
+}
+#sticky-header {
+    text-align: center; 
+    background: #fbbc0f;
+}
+#primary {
+    width: 100%;
+    padding: 30px;
+}
+.archive #primary {
+    padding: 30px;
+}
+#colophon p {
+    margin-left: 10px;
+}
+.column-4 {
+    width: 33%;
+    line-height: 2;
+    
+}
+#colophon .column-4{
+    padding: 0 50px;
+}
+.advertisement-banner-one {
+    margin-top: 0;
+}
+.site-content {
+    /*background: #fff;*/
+}
+.footer_contact_address {
+    display: flex;
+}
+.header-logo {
+    text-align: center;
+}
+.top-bar{
+    background: #fbbc0f;
+}
+#site-branding{
+    background: #fbbc0f;
+    
+}
+#sticky-header #site-branding{
+    display: contents;
+}
+#colophon .widget-wrap{
+    background: #fbbc0f;
+}
+.site-info{
+    background: #fbbc0f;
+}
+#search-box{
+    min-width: 600px;
+}
+.header-right{
+    display: flex;
+    margin-right: 17%;
+}
+.login-box button{
+    background: #f77426;
+    border: 1px solid #f77426;
+    cursor: pointer;
+    color: white;
+}
+.login-box{
+    display: grid;
+    margin-top: -15px;
+    margin-left: 13px;
+
+}
+.logout{
+    margin-top: 10px;
+}
+.top-bar .widget_contact{
+    margin-left: 30%;
+}
+
+.login .fa-sign-in {
+    margin: 5px;
+}
+.logout .fa-sign-out {
+    margin: 5px;
+}
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .best-seller{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 4%; 
+    width: 60%; 
+    }
+.best-seller-text{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 3%;
+    right: 0;        
+    text-align: center;
+    top: 11%;  
+    color: white;
+    font-size: 13px;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+    margin-bottom: 20px;
+}
+.woocommerce .quantity .qty{
+    height: 50px;
+}
+.woocommerce .quantity .qty{
+    width: 6.631em;
+}
+.woocommerce div.product form.cart .button{
+    height: 50px;
+    margin-left: 10px;
+}
+.book1{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: -59%;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    width: 10%;
+}
+.book2{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: -30%;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    width: 10%;
+}
+.book3{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    width: 10%;
+}
+.book4{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 30%;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    width: 10%;
+}
+.book5{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 60%;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    width: 10%;
+}
+.book6{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: -59%;
+    right: 0;
+    text-align: center;
+    top: 61%;
+    width: 10%;
+}
+.book7{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: -30%;
+    right: 0;
+    text-align: center;
+    top: 61%;
+    width: 10%;
+}
+.book8{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    top: 61%;
+    width: 10%;
+}
+.book9{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 30%;
+    right: 0;
+    text-align: center;
+    top: 61%;
+    width: 10%;
+}
+.book10{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 60%;
+    right: 0;
+    text-align: center;
+    top: 61%;
+    width: 10%;
+}
+.header-right .wcmenucart-contents i {
+    font-size: 44px;
+    vertical-align: top;
+    margin-top: -10px;
+    color: #f77426;
+}
+.header-right .cart-box{
+        margin-left: 10px;
+}
+#search-box .woocommerce-product-search button[type="submit"]{
+    background: #fbbc0f;
+    border: 3px solid #f77426;
+    width: 60px;
+}
+#search-box input.search-field {
+    width: calc(100% - 60px);
+}
+.login-box a{
+    margin-left: 10px;
+}
+/*.best-seller{
+    margin-top: -60%;
+    margin-left: 40%;
+}*/
+/** zm **/
+.best-seller-book img {
+    max-width: 150%;
+}
+.star-rating-hp {
+    color: #ffd33b;
+    font-size: 15px;
+}
+.sub:after {
+    content: "\f107";
+    font-family: "FontAwesome";
+}
+.is-sticky .main-navigation ul li ul {
+    top: 100%;
+}
+.book-div .book-category {
+    border: 2px solid #dbdada;
+}
+.panel-heading span {
+    margin-top: -23px;
+    font-size: 10px;
+}
+.panel-heading {
+    background: #fbbc0f;
+}
+.pg-title {
+    color: #f77426;
+    font-size: 21px;
+    padding: 0 0 1.5% 1.5%;
+}
+.clickable .fa {
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 1px;
+    color: black;
+    font-weight: bolder;
+}
+/** zm **/
+.is-sticky #sticky-header{
+    background: #fbbc0f;
+}
+.catalog-slider-promotion-inner .main-slider{
+    float: none;
+    width: 100%;
+}
+.catalog-slider-promotion-inner .main-slider .flex-direction-nav{
+    visibility: visible;
+    opacity: 1;
+}
+.catalog-slider-promotion-inner .main-slider .flex-direction-nav li{
+    background: #fbbc0f;
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    top: 40%;
+}
+.catalog-slider-promotion-inner .main-slider .flex-control-nav a.flex-active, .catalog-slider-promotion-inner .main-slider .flex-control-nav a:hover{
+    background: white;
+}
+.catalog-slider-promotion-box{
+    margin-top: 0px;
+    background: white;
+}
+.site-content-contain{
+    background: white;
+}
+.image-slider{
+border: 1px solid #00000020;
+box-shadow:0px 0px 5px 0px #00000020;
+}
+.image-slider:hover{
+  transform: scale(1.01); 
+}
+.product-slider-one{
+    background: white;
+}
+.product-slider-two,.product-slider-three{
+    background: white;
+}
+.more-product{
+    text-align: center;
+}
+.more-product button{
+    cursor: pointer;
+    width: 12%;
+    height: 45px;
+    background: #fbbc0f;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.more-product button:hover{
+  transform: scale(1.01); 
+}
+
+#colophon .widget-area{
+    margin: 3%;
+}
+.catalog-slider-promotion-inner{
+   /* margin-left: -3%*/
+}
+.slider-content{
+    padding-top: 15px;
+}
+.best_seller_button {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 3%;
+    right: 0;        
+    text-align: center;
+    top: 92%;  
+    color: white;
+    font-size: 13px;
+}
+.best_seller_button button{
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    background: #fbbc0f;
+    color: white;
+    border: none;
+}
+.flex-viewport .slides li {
+   width: 246.25px;
+}
+.catalog-slider-promotion-box .catalog-slider-promotion-wrap {
+    max-width: 91%;
+    padding: 0px;
+}
+.product-name{
+    margin-left: 4%;
+    color: #f77426;
+    font-size: 21px;
+}
+#content{
+    padding-top: 0px;
+}
+@media screen and (max-width:500px){
+#media_image-4{
+    margin-left: 0%;
+}
+#site-branding{
+    margin-left: 0%; 
+}
+.header-right {
+    display: contents;
+}
+.login-box{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.logout{
+    margin-top: 0px;
+}
+.ad-banner-one-img{
+    margin-top: -10px;
+}
+/*.text {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 6%;
+    right: 0;
+    text-align: center;
+    top: 15%;
+    color: white;
+    font-size: 9px;
+}*/
+.box .best-seller {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 1%;
+    width: 38%;
+}
+.image-slider{
+border: 1px solid #00000020;
+box-shadow:0px 0px 5px 0px #00000020;
+height: 265px;
+}
+.image-slider:hover{
+  transform: scale(1.01); 
+}
+.product-slider-two,.product-slider-three{
+    background: white;
+}
+
+.more-product{
+    text-align: center;
+}
+.more-product button{
+    cursor: pointer;
+    width: 25%;
+    height: 45px;
+}
+.more-product button:hover{
+  transform: scale(1.01); 
+}
+#colophon .widget-area{
+    margin: 3%;
+}
+.catalog-slider-promotion-inner{
+    /*margin-left: -3%*/
+}
+/** customized by zm **/
+.best-seller-text {
+    top: 12%;
+    font-size: 50%;
+    left: 6%;
+}
+.best-seller-book img {
+    max-width: 160%;
+}
+/** end customized by zm **/
+#search-box{
+    min-width: 100%!important;
+}
+.login-box a {
+    margin-left: 4px;
+}
+.cart-box{
+    margin-top: 6px;
+}
+.product-name{
+    font-size: 18px;
+}
+.best_seller_button {
+    top: 91%;
+    font-size: 12px;
+}
+.best_seller_button button{
+    height: 20px;
+}
+.flex-viewport .slides li {
+   /*width: 246.25px !important;*/
+}
+.site-content-contain #content{
+    padding-top: 0px;
+}
+}
+
+
